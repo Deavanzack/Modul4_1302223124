@@ -27,7 +27,7 @@ namespace Modul4_1302223124
         }
         public static String getcodebuah(buah code)
         {
-            String[] kode = {"A00", "B00", "C00", "D00", "E00", "F00", "H00", "I00" , "J00" , "K00" , "L00" , "Ooo" }
+            String[] kode = { "A00", "B00", "C00", "D00", "E00", "F00", "H00", "I00", "J00", "K00", "L00", "Ooo" };
             return kode[(int)code];
         }
     }
